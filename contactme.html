@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> ContactMe </title>
+        <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&display=swap" rel="stylesheet">
+        <style>
+            .box {
+             padding-left: 50px;
+             padding-right: 50px;
+             padding-top: 50px;
+             padding-bottom: 50px;
+             height: 400px;
+             width: 400px;
+             border: 3px solid black
+            }
+            .parent {
+             margin: 20px 40px;
+            }
+            .SmallBox {
+             padding: 10px 70px;
+             border: 1px transparent gray      
+            }
+            .SubmitButton {
+             padding: 5px 100px;
+             border: 1px transparent gray
+            }
+            .myFont {
+                font-family: 'Gentium Book Plus', serif;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <div class = "box">
+            <h1 class ="myFont"> Contact Me </h1>
+            <form>
+             <div class = "parent">
+                 <label for="firstName">First Name:</label>
+                 <input type="text" id="firstName" class = "SmallBox" class = "myFont" style = "text-align: center" placeholder = "First Name">
+             </div>
+             <div class = "parent">
+                 <label for="lastName">Last Name: </label>
+                 <input type="text" id="lastName" class = "SmallBox" class = "myFont" style = "text-align: center" placeholder="Last Name">
+             </div>
+             <div class = "parent">
+                 <label for="email">Email:</label>
+                 <input type="text" id="email" class = "SmallBox" class = "myFont" style = "text-align: center" placeholder="Email">
+             </div>
+             <input type ="submit" id="Submit" class = "SubmitButton" class = "myFont" placeholder="Submit">
+            </form>
+        </div>
+        </center>
+    </body>
+</html>
