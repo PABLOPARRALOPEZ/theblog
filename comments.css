@@ -1,0 +1,120 @@
+.titlebox {
+    margin-top: -10px;
+    margin-left: 12px;
+    margin-right: 12px;
+    display: inline-block;
+    width: 1150px;
+    height: 160px;
+    background-color: #fffefe;
+}
+
+.container {
+    text-align: center;
+}
+
+.commentContainer {
+    background-color: #f6f6f6;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px 20px;
+    text-align: left;
+}
+
+.commentContainer::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .commentContainer img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+
+  .user_name {
+    color: #aaa;
+  }
+  
+  .user_comment {
+    font-size: 22px;
+  }
+
+  .commentContainerbuttons {
+    float: right;
+    margin-left: 20px;
+    margin-right:30px;
+  } 
+
+  .commentContainerbuttons a {
+    color: #42b2d4;
+    margin-right: 5px;
+  }
+
+.titleboxcommenter {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    margin-left: -950px;
+    margin-top: 15px;
+}
+
+.titleboxtitle {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    margin-left: 35px;
+    margin-top: 5px;
+    text-align: left;
+}
+
+.commentsectionbox {
+    margin-top: 20px;
+    width: 1150px;
+    height: 450px;
+    background-color: #efeeef;
+    overflow-y: auto;
+}
+
+.entrybox {
+    width: 1150px;
+    height: 83.5px;
+    background-color: #fffefe;
+    font-size: 14px;
+}
+
+#DisplayName {
+    width: 135px;
+    height: 25px;
+    margin-left: -800px;
+    margin-right: -20px;
+    margin-top: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+#Comment {
+    width: 770px;
+    height: 25px;
+    margin-right: -690px;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+p {
+    margin-left: 950px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: -25px;
+    font-size: 18px;
+}
+
+#CommentBox {
+    margin-left: 800px;
+    background-color: #fffefe;
+    height: 200px;
+    width: 700px;
+}
